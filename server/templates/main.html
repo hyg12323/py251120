@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    메인입니다<br>
+    <strong>{{id2}}</strong>님 환영합니다<br>
+    d['k'] :{{ d['k' ]}}<br>
+    {{ d }} <br>
+    1[0] : {{ 1[0 ]}}<br>
+    {{ i }} <br>
+    <br>
+    <ul>
+    {% for num in l %}
+        {% if num != 2 %}
+         <li>  {{num}}</li>
+         {% endif %}
+    {% endfor %}
+    </ul>
+    <!-- html 주석 : 브라우저까지 간다 -->
+</body>
+</html>
